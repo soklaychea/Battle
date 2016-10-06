@@ -1,8 +1,21 @@
-﻿public void isHit(int x, int y, int dmg)
-{
-	if (player.position(x, y))
-	{
-		player.life - dmg;
-	}
-}
+﻿public bool isHit(int x, int y)
 
+{
+
+	if (player.position(x, y))
+
+	{
+
+		return true;
+
+	}
+
+		else 
+
+	{
+
+		return false;
+
+	}
+
+}
