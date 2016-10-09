@@ -1,7 +1,11 @@
-Public class Program 
+public class Program 
 {
 	private string _first;
 	private string _last;
+
+	public Program() : this ("Tim", "Tom")
+	{
+	}
 
 	public Program(string fname, string lname)
 	{
@@ -11,6 +15,6 @@ Public class Program
 
 	public void Print()
 	{
-		Console.WriteLine("Hello this is " + _first + _last);
+		Console.WriteLine("Hello this is {0} {1}", _first, _last);
 	}
 }
