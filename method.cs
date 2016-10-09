@@ -10,3 +10,16 @@ public bool isHit(int x, int y)
 		return false;
 	}
 }
+
+
+public void Main()
+{
+	if (isHit)
+	{
+		score++;
+	}
+	else
+	{
+		score--;
+	}
+}
