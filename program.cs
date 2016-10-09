@@ -5,6 +5,10 @@ public class Program
 	private int _age;
 	private string _edu;
 
+	public Program() : this ("Tim", "Tom", 21, "Swinburne")
+	{
+	}
+
 	public Program(string fname, string lname, int age, string edu)
 	{
 		_first = fname;
@@ -15,8 +19,9 @@ public class Program
 
 	public void Print()
 	{
-		Console.WriteLine("Hello this is " + _first + _last);
-		Console.WriteLine("I am " + _age + " years old");
-		Console.WriteLine("currently studying " + _edu);
+
+		Console.WriteLine("Hello this is {0} {1}", _first, _last);
+		Console.WriteLine("I am {0} years old", _age);
+		Console.WriteLine("currently studying {0}", _edu);	
 	}
 }
