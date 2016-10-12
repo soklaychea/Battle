@@ -24,4 +24,9 @@ public class Student
 		Console.WriteLine("I am {0} years old", _age);
 		Console.WriteLine("currently studying {0}", _edu);	
 	}
+
+	public void DoesSomething()
+	{
+		Console.WriteLine("qweqweqew");
+	}
 }
